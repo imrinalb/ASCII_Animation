@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASCIImation</title>
+
+    <!-- Link all css -->
+    <link rel="stylesheet" href="ascii.css">
+
+
+    <!-- Link javascript -->
+    <script src="animations.js"></script>
+    <script src="ascii.js"></script>
+
+
+
+</head>
+
+<body>
+
+    <h1 class="top-heading">CS472: ASCII Animation Viewer</h1>
+
+    <div>
+        <textarea class="main-text-area" name="maintxt" id="maintxt" cols="80" rows="20"></textarea>
+
+    </div>
+
+    <div class="control-container">
+        <fieldset class="control-fieldset">
+            <legend>Play controls</legend>
+            <button id="btnStart"> Start</button>
+            <button id="btnStop" disabled>Stop</button>
+        </fieldset>
+
+        <fieldset class="control-fieldset">
+            <legend>Animation</legend>
+            <select name="control-animation" id="controlAnimation">
+                <option value="blank" selected>Blank</option>
+                <option value="exercise">Exercise</option>
+                <option value="juggler">Juggler</option>
+                <option value="bike">Bike</option>
+                <option value="dive">Dive</option>
+                <option value="custom">Custom</option>
+                
+            </select>
+        </fieldset>
+
+        <fieldset class="control-fieldset">
+            <legend>Size</legend>
+            <select name="control-size" id="controlSize">
+                <option value="7pt">Tiny</option>
+                <option value="10pt">Small</option>
+                <option value="12pt" selected>Medium</option>
+                <option value="16pt">Large</option>
+                <option value="24pt">Extra Large</option>
+                <option value="32pt">XXL</option>
+
+            </select>
+        </fieldset>
+
+        <fieldset class="control-fieldset">
+            <legend>Speed</legend>
+            <input type="checkbox" name="turboChk" id="turboChk" value="turbo">
+            <label for="turboChk">Turbo</label>
+        </fieldset>
+    </div>
+
+    <div class="w3c-buttons">
+        <a href="http://validator.w3.org/check/referer"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="html check"></a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="https://www.w3.org/Icons/valid-css" alt="css check"></a>
+        <a href="https://webster.cs.washington.edu/jslint/?referer"><img src="https://codekitapp.com/images/help/free-jslint-icon@2x.png" height="31" width="88" alt="Valid JS"></a>
+
+    </div>
+
+</body>
+
+</html>

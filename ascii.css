@@ -1,0 +1,40 @@
+body {
+    background-color: #CCCCFF;
+    font-family: 'sans-serif';
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+h1.top-heading {
+    font-weight: bold;
+    font-size: 32pt;
+    width: fit-content;
+    margin: auto;
+}
+
+.main-text-area {
+    width: 90%;
+    height: 400px;
+    font: 12pt bold monospace;
+    display: inherit;
+    margin: auto;
+}
+
+.control-fieldset {
+    border: 5px solid black;
+    display: inline;
+    vertical-align: top;
+    text-align: center;
+}
+
+.control-container {
+    text-align: center;
+}
+
+.w3c-buttons {
+    float: right;
+}
+
+.w3c-buttons a {
+    display: block;
+}
